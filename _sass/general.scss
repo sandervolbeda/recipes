@@ -1,0 +1,25 @@
+// Colors
+$white: rgba(252,252,252,1);
+$black: rgba(16,16,16,1);
+
+// Fonts
+$primary-f: 'PT Serif', 'Times New Roman', serif;
+$secondary-f: 'Roboto', 'Arial', sans-serif; 
+
+// Width
+$mxw-inner: 812px;
+
+body {
+    background-color: $white;
+    color: $black;
+    font-family: $primary-f;
+}
+
+h1, h2, h3, h4, h5, h6, .h-font {
+    font-family: $secondary-f;
+    font-weight: 900;
+}
+
+.mxw-inner {
+    max-width: $mxw-inner;
+}

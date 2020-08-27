@@ -4,6 +4,8 @@ header {
     
     .nav {
         text-align: right;
+        font-family: $secondary-f;
+        font-weight: 400;
 
         .menu {
             margin: 0 30px 0 0;
@@ -18,10 +20,10 @@ header {
 
                 span {
                     color: white;
-                    font-weight: 700;
+                    font-weight: 400;
                     padding: 16px 32px;
                     border-radius: 50px;
-                    box-shadow:
+                    box-shadow: 
                         10px 5px 15px rgba(15,162,75,0.25),
                         -10px 5px 15px rgba(214,208,16,0.25);
                     background: rgb(15,162,75);

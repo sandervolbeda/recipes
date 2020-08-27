@@ -7,11 +7,18 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    <main>
+      {%- include hero.html -%}
+
+      {%- include recipes-overview.html -%}
+    </main>
+    
+
+    <!-- <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
-    </main>
+    </main> -->
 
     {%- include footer.html -%}
 
